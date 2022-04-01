@@ -60,6 +60,24 @@ function App() {
           outageStart:new Date('2022-03-22T18:00:00'),
           outageEnd:new Date('2022-03-22T20:00:00')
         },
+        {
+          name:"KHUSHI",
+          application:"Outlook",
+          outageStart:new Date('2022-03-22T18:00:00'),
+          outageEnd:new Date('2022-03-22T20:00:00')
+        },
+        {
+          name:"Rishi",
+          application:"Google",
+          outageStart:new Date('2022-03-22T18:00:00'),
+          outageEnd:new Date('2022-03-22T20:00:00')
+        },
+        {
+          name:"Roshan",
+          application:"Sleepy",
+          outageStart:new Date('2022-03-22T18:00:00'),
+          outageEnd:new Date('2022-03-22T20:00:00')
+        },
       ]
       localStorage.setItem('records',JSON.stringify(obj))
   } else {
